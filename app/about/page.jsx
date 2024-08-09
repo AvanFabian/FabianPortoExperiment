@@ -42,7 +42,7 @@ export default function Page() {
 							className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
 							<Image
 								src={Me2}
-								alt="Alvalens"
+								alt="Fabian"
 								layout="fill"
 								objectFit="cover"
 								placeholder="blur"
@@ -97,7 +97,7 @@ export default function Page() {
 									className="w-full h-full">
 									<Image
 										src={Me1}
-										alt="Alvalens"
+										alt="Fabian"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -120,7 +120,7 @@ export default function Page() {
 									className="w-full h-full">
 									<Image
 										src={Me2}
-										alt="Alvalens"
+										alt="Fabian"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -145,7 +145,7 @@ export default function Page() {
 									className="w-full h-full">
 									<Image
 										src={Me3}
-										alt="Alvalens"
+										alt="Fabian"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -170,10 +170,10 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							Alvalen Shafelbilyunazra
+							Avan Fabian Daniswara
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							Hey there, I&rsquo;m Alvalen Shafelbilyunazra, a
+							Hey there, I&rsquo;m Avan Fabian Daniswara, a
 							<span className="text-black font-medium">
 								{" "}
 								tech enthusiast
