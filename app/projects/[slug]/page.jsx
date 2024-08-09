@@ -14,42 +14,42 @@ import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
 function ScrollDownButton() {
-  const [isAtBottom, setIsAtBottom] = useState(false);
+	const [isAtBottom, setIsAtBottom] = useState(false);
 
-  const handleScroll = () => {
-    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    if (scrollTop < document.documentElement.scrollHeight - document.documentElement.clientHeight) {
+	const handleScroll = () => {
+		const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+		if (scrollTop < document.documentElement.scrollHeight - document.documentElement.clientHeight) {
 
-      window.scrollTo({
-        top: document.documentElement.scrollHeight,
-        behavior: "smooth",
-      });
-				setIsAtBottom(true);
-			
-    } else {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
+			window.scrollTo({
+				top: document.documentElement.scrollHeight,
+				behavior: "smooth",
+			});
+			setIsAtBottom(true);
+
+		} else {
+			window.scrollTo({
+				top: 0,
+				behavior: "smooth",
+			});
 			setIsAtBottom(false);
-    }
-  };
+		}
+	};
 
-  return (
-    <div className="fixed bottom-5 left-0 right-0 flex justify-center items-center mb-10">
-      <motion.div
-        className="h-10 w-10 bg-neutral-900 rounded-full flex justify-center items-center cursor-pointer"
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
-        onClick={handleScroll}
-      >
-        <FontAwesomeIcon
-          icon={isAtBottom ? faChevronUp : faChevronDown}
-          className="text-white text-2xl"
-        />
-      </motion.div>
-    </div>
-  );
+	return (
+		<div className="fixed bottom-5 left-0 right-0 flex justify-center items-center mb-10">
+			<motion.div
+				className="h-10 w-10 bg-neutral-900 rounded-full flex justify-center items-center cursor-pointer"
+				whileHover={{ scale: 1.1 }}
+				whileTap={{ scale: 0.9 }}
+				onClick={handleScroll}
+			>
+				<FontAwesomeIcon
+					icon={isAtBottom ? faChevronUp : faChevronDown}
+					className="text-white text-2xl"
+				/>
+			</motion.div>
+		</div>
+	);
 }
 
 
@@ -98,9 +98,9 @@ function Page({ params }) {
 			</div>
 		);
 	}
-			const handleBack = () => {
-				window.history.back();
-			};
+	const handleBack = () => {
+		window.history.back();
+	};
 	return (
 		<div className="relative min-h-screen w-full gap-4 p-10 flex justify-center items-center flex-col mb-10 ">
 			<FixedButon onClick={handleBack}>
@@ -162,16 +162,23 @@ function Page({ params }) {
 									Source Code
 								</h2>
 								<p className="text-2xl font-normal text-neutral-900">
-									<a
-										href={data.code}
-										target="_blank"
-										rel="noopener noreferrer">
-										Github{" "}
-										<FontAwesomeIcon
-											icon={faGithub}
-											className="ml-3"
-										/>
-									</a>
+									{
+										data.code === "Private" ? (
+											<p>Private</p>
+										) : (
+											<a
+												href={data.code}
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												Github{" "}
+												<FontAwesomeIcon
+													icon={faGithub}
+													className="ml-3"
+												/>
+											</a>
+										)
+									}
 								</p>
 							</div>
 						)}

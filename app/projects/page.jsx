@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/legacy/image";
 
 // images
-import ReactChat1 from "@/public/projects/react-chat.png";
-import ReactChat2 from "@/public/projects/react-chat2.png";
-import ReactChat3 from "@/public/projects/react-chat3.png";
+import NeuRehab1 from "@/public/projects/neurehab.png";
+import NeuRehab2 from "@/public/projects/neurehab2.jpg";
+import NeuRehab3 from "@/public/projects/neurehab3.jpg";
 import ProjectAll from "@/public/img/projects-all.jpg";
 // main project image
 import LUDOang from "@/public/projects/main-project/ludo.png";
@@ -117,7 +117,7 @@ export default function Page() {
 							className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
 							<Image
 								src={ProjectAll}
-								alt="Alvalens"
+								alt="Fabian"
 								layout="fill"
 								objectFit="cover"
 								placeholder="blur"
@@ -133,7 +133,7 @@ export default function Page() {
 							List of my projects that I have done and{" "}
 							<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
 								{" "}
-								currently working on.
+								currently working <br /> on.
 							</span>
 						</p>
 						<motion.div
@@ -171,8 +171,8 @@ export default function Page() {
 									}}
 									className="w-full h-full shadow-lg">
 									<Image
-										src={ReactChat1}
-										alt="Alvalens"
+										src={NeuRehab1}
+										alt="Fabian"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -194,16 +194,16 @@ export default function Page() {
 									transition={{ delay: 0.3 }}
 									className="w-full h-full shadow-lg ">
 									<Image
-										src={ReactChat3}
-										alt="Alvalens"
-										layout="fill"
-										objectFit="cover"
+										src={NeuRehab3}
+										alt="Fabian"
+										layout="intrinsic"
+										objectFit="contain"
 										placeholder="blur"
 										objectPosition="0% 0%"
 									/>
 								</motion.div>
 							</div>
-							<div className="absolute bottom-16 right-20 w-[40%]  aspect-square grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
+							<div className="absolute bottom-[-50px] right-[334px] w-[40%] aspect-square grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
 								<motion.div
 									initial={{
 										opacity: 0,
@@ -218,12 +218,13 @@ export default function Page() {
 									transition={{
 										delay: 0.5,
 									}}
-									className="w-full h-full shadow-lg">
+									className="w-full h-fit shadow-lg"
+								>
 									<Image
-										src={ReactChat2}
-										alt="Alvalens"
-										layout="fill"
-										objectFit="cover"
+										src={NeuRehab2}
+										alt="Fabian"
+										layout="responsive"
+										objectFit="cover" // Changed from 'contain' to 'cover'
 										placeholder="blur"
 									/>
 								</motion.div>
@@ -246,25 +247,27 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							React Chat WebApp
+							NeuRehab
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							React Chat WebApp is a chat application that I
-							created using ReactJS, Firebase, and TailwindCSS.
-							This is my second project using ReactJS and
-							Firebase. I created this project to learn more about
-							ReactJS and Firebase. I also use TailwindCSS to make
-							the UI more beautiful and responsive. In this
-							project i learn many things about react and
-							firebase, such as react hooks, react router,
-							firebase authentication, firebase firestore, and
-							firebase storage. You can see the source code of
-							this project on my github account or preview the
-							project by clicking the button below.
+							Sistem NeuRehab adalah sebuah inovasi yang dirancang untuk
+							membantu proses rehabilitasi pasca stroke. Sistem NeuRehab
+							dilengkapi dengan berbagai fitur unggulan diantaranya Sarung
+							tangan eksoskeleton dilengkapi dengan mikrokontroler Arduino
+							ProMikro, sensor flex untuk fitur motion assist, dan pulse heart
+							sensor untuk memonitor kondisi denyut nadi pasien. Selain itu,
+							Virtual Reality Box digunakan sebagai perangkat VR yang memiliki
+							spesifikasi tinggi untuk memberikan pengalaman visual yang optimal.
+							Penggunaan perangkat ini memungkinkan pasien untuk melatih
+							motorik tangan melalui interaksi dengan lingkungan virtual. Dengan
+							menggunakan NeuRehab, penderita dapat menjalani terapi dengan
+							cara yang lebih interaktif, sehingga diharapkan dapat mempercepat
+							proses pemulihan mereka.
+
 						</p>{" "}
 						<div className="mt-3">
 							<Button variation="primary">
-								<Link href="projects/react-chat ">More</Link>
+								<Link href="projects/neurehab">More</Link>
 							</Button>
 							<Button variation="secondary">
 								<a
@@ -319,7 +322,7 @@ export default function Page() {
 								{/* Add relative here */}
 								<Image
 									src={project.bg.src}
-									alt="Alvalens"
+									alt="Fabian"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"

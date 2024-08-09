@@ -51,7 +51,7 @@ const MyPage = () => {
 												width={500}
 												height={500}
 												className="rounded-full w-full h-full object-cover "
-												alt="Alvalens"
+												alt="Fabian"
 												placeholder="blur"
 											/>
 										</div>
@@ -128,7 +128,7 @@ const MyPage = () => {
 											width={400}
 											height={550}
 											placeholder="blur"
-											alt="Alvalens"
+											alt="Fabian"
 											className="rounded-full w-full h-full object-cover"
 										/>
 									</div>
@@ -160,7 +160,7 @@ const MyPage = () => {
 											src={MeAbout}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens"
+											alt="Fabian"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -229,7 +229,7 @@ const MyPage = () => {
 											src={ProjectAll}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens Setup"
+											alt="Fabian Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -302,7 +302,7 @@ const MyPage = () => {
 											src={Setup}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens Setup"
+											alt="Fabian Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -347,7 +347,7 @@ const MyPage = () => {
 									{/* icons */}
 									<div className="flex justify-center items-center space-x-4">
 										<motion.a
-											href="mailto:avanfabiand@gmail.com?subject=Hello&body=Hello Alvalens,"
+											href="mailto:avanfabiand@gmail.com?subject=Hello&body=Hello Fabian,"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
 											initial={{ y: 40, opacity: 0 }}
 											whileInView={{ y: 0, opacity: 1 }}
