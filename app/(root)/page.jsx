@@ -1,7 +1,6 @@
 "use client";
 import ReactFullpage from "@fullpage/react-fullpage";
 import Image from "next/legacy/image";
-// import "../globals.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
 

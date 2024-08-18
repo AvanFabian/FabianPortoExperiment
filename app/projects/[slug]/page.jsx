@@ -137,25 +137,37 @@ function Page({ params }) {
 								{data.year}
 							</p>
 						</div>
-						{data.preview && (
-							<div>
-								<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400">
-									Preview
-								</h2>
-								<p className="text-2xl font-normal text-neutral-900">
-									<a
-										href={data.preview}
-										target="_blank"
-										rel="noopener noreferrer">
-										Preview{" "}
-										<FontAwesomeIcon
-											icon={faArrowUpRightFromSquare}
-											className="ml-3"
-										/>
-									</a>
-								</p>
-							</div>
-						)}
+						{
+							data.preview === "No Live Preview Yet" ? (
+								<div>
+									<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400">
+										Preview
+									</h2>
+									<p className="text-2xl font-normal text-neutral-900">
+										No Live Preview Yet
+									</p>
+								</div>
+							) : (
+								<div>
+									<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400">
+										Preview
+									</h2>
+									<p className="text-2xl font-normal text-neutral-900">
+										<a
+											href={data.preview}
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Preview{" "}
+											<FontAwesomeIcon
+												icon={faArrowUpRightFromSquare}
+												className="ml-3"
+											/>
+										</a>
+									</p>
+								</div>
+							)
+						}
 						{data.code && (
 							<div>
 								<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400">

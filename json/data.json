@@ -7,12 +7,12 @@
         "RandomZone is a feature that allows the player to get a random number of steps. The 3D dice is a feature that allows the player to roll a 3D dice. The game also has a few other features menuy screen and also loading screen.", "Beside that the game also has a audio theme that will play when the game is started. The game also has a few sound effects such as dice roll sound, and a sound when the player win the game."
       ],
       "year": "2023",
-      "preview": "https://github.com/Alvalens/ludo-game/releases/tag/pre-release",
+      "preview": "No Live Preview Yet",
       "code": "https://github.com/AvanFabian/TheMino-OrdinaryDominoGame",
       "images": [
-        "/projects/LUDOang/ludo1.png",
-        "/projects/LUDOang/ludo2.png",
-        "/projects/LUDOang/ludo3.png"
+        "/projects/TheMino/mino1.png",
+        "/projects/TheMino/mino2.png",
+        "/projects/TheMino/mino3.png"
       ],
       "tech": [
         "Python",
@@ -24,11 +24,11 @@
     {
       "title": "NeuRehab",
       "desc": [
-        "NeuRehab adalah Proyek dari Program Kreativitas Mahasiswa yang dikembangkan untuk membantu rehabilitasi pasca stroke secara lebih efektif. Sistem ini menggabungkan sarung tangan eksoskeleton dengan mikrokontroler Arduino, sensor flex untuk assistive motion, dan sensor denyut nadi. Kami juga menggunakan Virtual Reality (VR) untuk melatih motorik tangan pasien melalui simulasi interaktif.",
-        "Proyek ini lahir akan kebutuhan akan solusi rehabilitasi yang lebih efisien bagi penderita stroke. NeuRehab memungkinkan pasien untuk berlatih mandiri di rumah dengan bantuan exoskeleton dan VR, sekaligus memonitor kondisi mereka secara real-time, sehingga mempercepat pemulihan tanpa bergantung sepenuhnya pada terapis fisik."
+        "NeuRehab is a Student Creativity Program project developed to assist post-stroke rehabilitation more effectively. The system combines an exoskeleton glove with an Arduino microcontroller, flex sensor for assistive motion, and pulse sensor. We also use Virtual Reality (VR) to train the patient's hand motor skills through interactive simulations.",
+        "This project was born out of the need for a more efficient rehabilitation solution for stroke patients. NeuRehab allows patients to practice independently at home with the help of exoskeleton and VR, while monitoring their condition in real-time, thus accelerating recovery without relying entirely on physical therapists."
       ],
       "year": "2024",
-      "preview": "https://react-chat-rouge.vercel.app",
+      "preview": "No Live Preview Yet",
       "code": "Private",
       "images": [
         "/projects/chat/chat1.png",
@@ -47,22 +47,18 @@
       "slug": "neurehab"
     },
     {
-      "title": "React Tools",
+      "title": "Sch Education",
       "desc": [
-        "React Tools is a groundbreaking and user-friendly project that brings together a comprehensive collection of tools and components crafted with cutting-edge technologies, including React, React Router, and TailwindCSS. What sets this project apart is that it's not just a suite of powerful features, but it's also a significant milestone as it marks my very first venture into the world of React development.",
-
-        "Unlike traditional web applications, React Tools cleverly utilizes browser local storage, eliminating the need for external databases. This not only ensures seamless performance but also prioritizes user data privacy. ",
-
-        "The Todo List keeps tasks in check with intuitive task management capabilities, ensuring you never miss a beat. The note-taking feature provides a hassle-free way to jot down ideas and crucial information, accessible whenever inspiration strikes. Additionally, our robust expense tracker simplifies financial management by recording and categorizing expenses, delivering insightful spending analysis."
+        "Final Project of Innovation Management Lecture. SchEducation is simply an school online course, all of material provided by the Teacher there."
       ],
       "year": "2023",
-      "preview": "https://react-tools-flax.vercel.app",
-      "code": "https://github.com/Alvalens/react-tools",
+      "preview": "https://sch-education.vercel.app/",
+      "code": "https://github.com/AvanFabian/SchEducation",
       "images": [
-        "/projects/tools/tools.png",
-        "/projects/tools/tools1.png",
-        "/projects/tools/tools2.png",
-        "/projects/tools/tools3.png"
+        "/projects/schedu/schedu1.png",
+        "/projects/schedu/schedu2.png",
+        "/projects/schedu/schedu3.png",
+        "/projects/schedu/schedu4.png"
       ],
       "tech": [
         "Javascript",
@@ -70,13 +66,13 @@
         "React Router",
         "TailwindCSS"
       ],
-      "slug": "react-tools"
+      "slug": "schedu"
     },
     {
-      "title": "Aleph Discord Bot",
+      "title": "Rumah Salad Faqiha",
       "desc": [
         "Aleph is a Discord bot that I created for my dircord server to use. The bot is built using Python and the discord.py library. The bot has image grabber feauture that takes argument (keywords) and returns an image from the internet.", "Other than that this bot has a few other features such as utility command to delete a messages, and a command to get the server's ping. This bot is still in development and I plan to add more features in the future."],
-      "year": "2023",
+      "year": "2024",
       "preview": "",
       "code": "https://github.com/Alvalens/aleph-discord-bot",
       "images": [
