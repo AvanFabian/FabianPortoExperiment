@@ -22,7 +22,32 @@
       "slug": "themino"
     },
     {
-      "title": "NeuRehab",
+      "title": "NeuRehab VR Gamification",
+      "desc": [
+        "NeuRehab is a Student Creativity Program project which already Founded by Ministry of Education, Culture, Research, and Technology of Indonesia. NeuRehab is developed to assist post-stroke rehabilitation more effectively. The system combines an exoskeleton glove with an Arduino microcontroller, flex sensor for assistive motion, and pulse sensor. We also use Virtual Reality (VR) to train the patient's hand motor skills through interactive simulations.",
+        "This project was born out of the need for a more efficient rehabilitation solution for stroke patients. NeuRehab allows patients to practice independently at home with the help of exoskeleton and VR, while monitoring their condition in real-time, thus accelerating recovery without relying entirely on physical therapists."
+      ],
+      "year": "2024",
+      "preview": "No Live Preview Yet",
+      "code": "Private",
+      "images": [
+        "/projects/neurehab/neurehab1.png",
+        "/projects/neurehab/neurehab2.png",
+        "/projects/neurehab/neurehab3.png",
+        "/projects/neurehab/neurehab4.png"
+      ],
+      "tech": [
+        "Android Studio",
+        "Arduino",
+        "ESP32",
+        "HC-05",
+        "C#",
+        "Unity"
+      ],
+      "slug": "neurehab"
+    },
+    {
+      "title": "NeuRehab Support Apps",
       "desc": [
         "NeuRehab is a Student Creativity Program project developed to assist post-stroke rehabilitation more effectively. The system combines an exoskeleton glove with an Arduino microcontroller, flex sensor for assistive motion, and pulse sensor. We also use Virtual Reality (VR) to train the patient's hand motor skills through interactive simulations.",
         "This project was born out of the need for a more efficient rehabilitation solution for stroke patients. NeuRehab allows patients to practice independently at home with the help of exoskeleton and VR, while monitoring their condition in real-time, thus accelerating recovery without relying entirely on physical therapists."
@@ -31,10 +56,60 @@
       "preview": "No Live Preview Yet",
       "code": "Private",
       "images": [
-        "/projects/chat/chat1.png",
-        "/projects/chat/chat2.png",
-        "/projects/chat/chat3.png",
-        "/projects/chat/chat4.png"
+        "/projects/neurehab/neurehab1.png",
+        "/projects/neurehab/neurehab2.png",
+        "/projects/neurehab/neurehab3.png",
+        "/projects/neurehab/neurehab4.png"
+      ],
+      "tech": [
+        "Android Studio",
+        "Arduino",
+        "ESP32",
+        "HC-05",
+        "C#",
+        "Unity"
+      ],
+      "slug": "neurehab"
+    },
+    {
+      "title": "NeuRehab Arduino & Exoskeleton HC-05 Bluetooth Connection",
+      "desc": [
+        "NeuRehab is a Student Creativity Program project developed to assist post-stroke rehabilitation more effectively. The system combines an exoskeleton glove with an Arduino microcontroller, flex sensor for assistive motion, and pulse sensor. We also use Virtual Reality (VR) to train the patient's hand motor skills through interactive simulations.",
+        "This project was born out of the need for a more efficient rehabilitation solution for stroke patients. NeuRehab allows patients to practice independently at home with the help of exoskeleton and VR, while monitoring their condition in real-time, thus accelerating recovery without relying entirely on physical therapists."
+      ],
+      "year": "2024",
+      "preview": "No Live Preview Yet",
+      "code": "Private",
+      "images": [
+        "/projects/neurehab/neurehab1.png",
+        "/projects/neurehab/neurehab2.png",
+        "/projects/neurehab/neurehab3.png",
+        "/projects/neurehab/neurehab4.png"
+      ],
+      "tech": [
+        "Android Studio",
+        "Arduino",
+        "ESP32",
+        "HC-05",
+        "C#",
+        "Unity"
+      ],
+      "slug": "neurehab"
+    },
+    {
+      "title": "NeuRehab Arduino & ESP32 Apps Wifi Connection",
+      "desc": [
+        "NeuRehab is a Student Creativity Program project developed to assist post-stroke rehabilitation more effectively. The system combines an exoskeleton glove with an Arduino microcontroller, flex sensor for assistive motion, and pulse sensor. We also use Virtual Reality (VR) to train the patient's hand motor skills through interactive simulations.",
+        "This project was born out of the need for a more efficient rehabilitation solution for stroke patients. NeuRehab allows patients to practice independently at home with the help of exoskeleton and VR, while monitoring their condition in real-time, thus accelerating recovery without relying entirely on physical therapists."
+      ],
+      "year": "2024",
+      "preview": "No Live Preview Yet",
+      "code": "Private",
+      "images": [
+        "/projects/neurehab/neurehab1.png",
+        "/projects/neurehab/neurehab2.png",
+        "/projects/neurehab/neurehab3.png",
+        "/projects/neurehab/neurehab4.png"
       ],
       "tech": [
         "Android Studio",
@@ -71,89 +146,88 @@
     {
       "title": "Rumah Salad Faqiha",
       "desc": [
-        "Aleph is a Discord bot that I created for my dircord server to use. The bot is built using Python and the discord.py library. The bot has image grabber feauture that takes argument (keywords) and returns an image from the internet.", "Other than that this bot has a few other features such as utility command to delete a messages, and a command to get the server's ping. This bot is still in development and I plan to add more features in the future."],
+        "Integrated Product Ordering Platform to Empower Small and Medium Enterprises (SMEs)"],
       "year": "2024",
       "preview": "",
-      "code": "https://github.com/Alvalens/aleph-discord-bot",
+      "code": "https://github.com/AvanFabian/RumahSaladFaqiha",
       "images": [
-        "/projects/bot/bot1.png",
-        "/projects/bot/bot2.png"
+        "/projects/faqiha/faqiha1.png",
+        "/projects/faqiha/faqiha2.png",
+        "/projects/faqiha/faqiha3.png",
+        "/projects/faqiha/faqiha4.png",
+        "/projects/faqiha/faqiha5.png",
+        "/projects/faqiha/faqiha6.png",
+        "/projects/faqiha/faqiha7.png",
+        "/projects/faqiha/faqiha8.png",
+        "/projects/faqiha/faqiha9.png",
+        "/projects/faqiha/faqiha10.png"
       ],
       "tech": [
-        "Python",
-        "Discord.py",
-        "Google Serp API"
+        "Laravel",
+        "Tailwind CSS"
       ],
-      "slug": "aleph-discord-bot"
+      "slug": "rumah-salad-faqiha"
     }, 
     {
-      "title": "LPTK Cup 2023 Website",
+      "title": "Exoria Data Store Website",
       "desc": [
-        "LPTK Cup UM is a website that I created for a competition held by  the Universitas Negeri Malang. The website is mainly built using Laravel and Bootstrap. The website has a few features such as a registration form, a login system, article system, file upload,  and a dashboard for the admin to manage the contents.",
-        "This project is my second freelance project, this project is not as big as my first freelance project but I learned a lot from this project. I learn how to manage a project and how to work with a team."
+        "Exoria is a Freelance Website Template Store announced by UPN Jatim and State University of Malang Students."
       ],
-      "year": "2023",
-      "preview": "",
-      "code": "",
+      "year": "2024",
+      "preview": "No Live Preview Yet",
+      "code": "Private",
       "images": [
-        "/projects/lptk/lptk1.png",
-        "/projects/lptk/lptk2.png",
-        "/projects/lptk/lptk3.png",
-        "/projects/lptk/lptk3.png"
+        "/projects/exoria/exoria1.png",
+        "/projects/exoria/exoria2.png",
+        "/projects/exoria/exoria3.png",
+        "/projects/exoria/exoria3.png"
       ],
       "tech": [
         "PHP",
         "Laravel",
         "Bootstrap",
-        "MySQL",
-        "jQuery",
-        "DataTables"
+        "MySQL"
       ],
-      "slug": "lptk-cup-2023"
+      "slug": "exoria-data-store-website"
     }, 
     {
-      "title": "NU INO Website",
+      "title": "MonDi VR Biologi Education App",
       "desc": [
-        "My first freelance project. This project is a website for a School based on a JALAKAR curriculum. The website is built mainly using Laravel and Bootstrap.", "This website is LMS like system, have a user management, user auth, quiz and material for student and FAQ",  "In this project I learned how to work with a team and how to manage a project. I also learned new library such as livewire and alpine.js."],
-      "year": "2023",
+        "MonDi is a Virtual Reality (VR) application that is used to help students learn biology. The application is built using Unity and C#. The application has a few features such as a 3D model of a cell, and a 3D model of a plant."],
+      "year": "2024",
       "preview": "",
-      "code": "",
+      "code": "https://github.com/AvanFabian/MonDi-LIDM",
       "images": [
-        "/projects/ino/ino1.png",
-        "/projects/ino/ino2.png",
-        "/projects/ino/ino3.png"
+        "/projects/mondi/mondi1.png",
+        "/projects/mondi/mondi2.png",
+        "/projects/mondi/mondi3.png"
       ],
       "tech": [
-        "PHP",
-        "Laravel",
-        "Bootstrap",
-        "Livewire",
-        "MySQL",
-        "jQuery",
-        "DataTables"
+        "C#",
+        "Unity"
       ],
-      "slug": "nu-ino-website"
+      "slug": "mondivr-biologi-education-app"
     },
     {
-      "title": "Unmuh Jember Landing Page",
+      "title": "BunYa: Buat Senyawa",
       "desc": [
-        "Unmuh Jember landing page is a website that I created for a competition held by Universitas Muhammadiyah Jember. The website is built natively using HTML, CSS, and JavaScript. The website has a few features such as a registration form, a login system, and a dashboard for the admin to manage the contents.",
-        "This project is my first freelance project and my first project using JavaScript. I learned a lot about how to use JavaScript and how to use it to create a website. I also learned how to work with a team and how to manage a project."
+        "BunYa is a game that my team and I created for a GEMASTIK (Gerakan Mahasiswa TIK) competition in 2023. The game is built using Unity and C#. The game is a 2.5D game which players can shoot some elements to create a compound."
       ],
       "year": "2023",
-      "preview": "https://alvalens.github.io/unmuh-jember-landing-page/",
-      "code": "https://github.com/Alvalens/unmuh-jember-landing-page",
+      "preview": "",
+      "code": "",
       "images": [
-        "/projects/unmuh/unmuh1.png",
-        "/projects/unmuh/unmuh2.png",
-        "/projects/unmuh/unmuh3.png"
+        "/projects/bunya/bunya1.png",
+        "/projects/bunya/bunya2.png",
+        "/projects/bunya/bunya3.png",
+        "/projects/bunya/bunya4.png",
+        "/projects/bunya/bunya5.png"
       ],
       "tech": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        "Unity",
+        "C#"
       ],
-      "slug": "unmuh-jember-landing-page"
+      "slug": "bunya-buat-senyawa"
     },
     {
       "title": "My First Portofolio Website",
